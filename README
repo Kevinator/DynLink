@@ -1,0 +1,19 @@
+This repository contains two frameworks, one written in JavaScript for the Client,
+which  allows you, to link a website to a server. The second is written in C# which
+allows you to create a server for your website. SO you can use a HTML-page as a
+GUI for your server-based application.
+
+Requirements:
+-> Client: HTML5, CSS3, Javascript
+-> Server: Windows 7, .NET Framework 4.5
+
+Features:
+-> Connect over WebSockets
+-> Send request to the Server and get an answer
+-> Some autobind
+
+Not implemented:
+-> Autobind
+-> PUSH (events)
+-> Other languages
+-> SSL

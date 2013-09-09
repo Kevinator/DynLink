@@ -1,0 +1,6 @@
+C:\Users\kküpper\Documents\Visual Studio 2010\Projects\WebSockets\CSharp_Framework\Research.DynamicLink.Server\bin\Debug\Research.DynamicLink.Server.exe.config
+C:\Users\kküpper\Documents\Visual Studio 2010\Projects\WebSockets\CSharp_Framework\Research.DynamicLink.Server\bin\Debug\Research.DynamicLink.Server.exe
+C:\Users\kküpper\Documents\Visual Studio 2010\Projects\WebSockets\CSharp_Framework\Research.DynamicLink.Server\bin\Debug\Research.DynamicLink.Server.pdb
+C:\Users\kküpper\Documents\Visual Studio 2010\Projects\WebSockets\CSharp_Framework\Research.DynamicLink.Server\obj\Debug\Research.DynamicLink.Server.csprojResolveAssemblyReference.cache
+C:\Users\kküpper\Documents\Visual Studio 2010\Projects\WebSockets\CSharp_Framework\Research.DynamicLink.Server\obj\Debug\Research.DynamicLink.Server.exe
+C:\Users\kküpper\Documents\Visual Studio 2010\Projects\WebSockets\CSharp_Framework\Research.DynamicLink.Server\obj\Debug\Research.DynamicLink.Server.pdb

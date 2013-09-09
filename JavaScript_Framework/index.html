@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="de">
+    <head>
+        <meta charset="utf-8" />
+        <title>DynamicLink</title>
+
+        <script type="text/javascript" src="./DynLink.js"></script>
+
+        <script type="text/javascript">
+            dynLinkAddEventCallback("NewTask", NewTaskCallback);
+            var dynLinkConnectionUrl = "ws://localhost:8181/";
+            dnyLinkStartupAndBind("TaskList", "ShowTaskList", undefined);
+
+            function NewTaskCallback(ViewModel) {
+                alert("Neue Aufgabe: " + ViewModel.Name);
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Aufgaben</h1>
+        <h2>Von: <label data-dynlinkbind="Name"></label></h2>
+        <table data-dynlinkbind="Tasks" data-dynlinkbind-properties="TaskName,Priority,Description" border="1">
+            <tr data-dynlinkbind-headerrow="true">
+                <td>Aufgabe</td>
+                <td>Priorität</td>
+                <td>Beschreibung</td>
+            </tr>
+        </table>
+    </body>
+</html>
